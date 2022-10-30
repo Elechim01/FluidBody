@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct FluidBodyApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: FluidBodyDocument()) { file in
-            ContentView(document: file.$document)
+        WindowGroup{
+            ContentView()
         }
     }
 }
